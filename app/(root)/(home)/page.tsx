@@ -38,9 +38,9 @@ const questions = [
       picture: "jane-doe.jpg",
     },
     upvotes: 15,
-    views: 25,
+    views: 25000000,
     answers: [],
-    createdAt: new Date("2021-10-11"),
+    createdAt: new Date("2024-03-11"),
   },
 ];
 
