@@ -50,12 +50,13 @@ const QuestionCard = ({
         ))}
       </div>
       <div className="flex-between mt-6 w-full flex-wrap gap-3">
+        {/* //!!35 45 */}
         <Metric
           imgUrl="/assets/icons/like.svg"
           alt="upvotes"
           value={upvotes}
           title="Votes"
-          textStyles="small-medium text-dark400_light800"
+          textStyles="small-mexdium text-dark400_light800"
         />
         <Metric
           imgUrl="/assets/icons/message.svg"

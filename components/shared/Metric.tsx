@@ -28,7 +28,7 @@ const Metric = ({
         className={`object-contain ${href ? "rounded-full" : ""}`}
       />
       <p className={`${textStyles} flex items-center gap-1`}>
-        {value}
+        <span>{value}</span>
         {title}
       </p>
     </div>
